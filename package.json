@@ -9,6 +9,7 @@
   "author": "fish",
   "license": "ISC",
   "dependencies": {
-    "got": "^11.8.2"
+    "got": "^11.8.2",
+    "node-schedule": "^2.0.0"
   }
 }
