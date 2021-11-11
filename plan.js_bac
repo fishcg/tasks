@@ -1,0 +1,13 @@
+config = {
+  "key": [{  // 这里输入 webhook key
+    "rule": "* * * * * *",  // 这里输入 cron 表达式
+    "msgs": ["msg1", "msg2~"], // 发送的文本，随机执行一条
+    "users": []  // 要 @ 成员的手机号数组
+  }, {
+    "rule": "* * * * * *",
+    "msgs": [""],
+    "users": []
+  }]
+}
+
+module.exports = config
